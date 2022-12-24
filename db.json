@@ -1,0 +1,35 @@
+{
+    "messages":[
+        {
+            "id":1,
+            "name":"John Doe",
+            "image":"https://images.pexels.com/photos/2826131/pexels-photo-2826131.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "message":"I liked the phase"
+        },
+        {
+            "id":2,
+            "name":"Mark Maasai",
+            "image":"https://images.pexels.com/photos/2519217/pexels-photo-2519217.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "message":"I liked hanging out with my friends"  
+        },
+        {
+            "id":3,
+            "name":"Mr Bean",
+            "image":"https://images.pexels.com/photos/935948/pexels-photo-935948.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "message":"the phase was highly interactive"
+        },
+        {
+            "id":4,
+            "name":"Jean Ojiro",
+            "image":"https://images.pexels.com/photos/6344238/pexels-photo-6344238.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "message":"Loved every bit"
+        },
+        {
+            "id":5,
+            "name":"Isabel Paige",
+            "image":"https://images.pexels.com/photos/8199656/pexels-photo-8199656.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "message":"Very engaging and interesting"
+        }
+        
+    ]
+}
