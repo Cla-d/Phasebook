@@ -53,3 +53,30 @@ function searchName(){
 
 const searchButton= document.getElementById("searchButton")
 searchButton.addEventListener("click", searchName)
+
+function postData() {
+    const form = document.getElementById("get_user_data")
+    const name = document.getElementById("user-name").value
+    const imageUrl = document.getElementById("image-url").value
+    const message = document.getElementById("user-message").value
+
+    form.addEventListener("submit", (e)=>{
+        e.preventDefault
+        fetch("http://localhost:3000/messages", {
+            method:'POST',
+            body:JSON.stringify({
+                id:Date.now,
+                name:name,
+                image:imageUrl,
+                message:message
+            }),
+            headers:{
+                "Content-type":"application/json",
+                Accept:"application.json"
+            }
+        })
+        .then(response=>response.json())
+        .then(data=>console,log(data))
+    })
+    
+}
