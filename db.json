@@ -8,13 +8,13 @@
         },
         {
             "id":2,
-            "name":"Mark Maasai",
+            "name":"Mr Bean",
             "image":"https://images.pexels.com/photos/2519217/pexels-photo-2519217.jpeg?auto=compress&cs=tinysrgb&w=600",
             "message":"I liked hanging out with my friends"  
         },
         {
             "id":3,
-            "name":"Mr Bean",
+            "name":"Mark Maasai",
             "image":"https://images.pexels.com/photos/935948/pexels-photo-935948.jpeg?auto=compress&cs=tinysrgb&w=600",
             "message":"the phase was highly interactive"
         },
